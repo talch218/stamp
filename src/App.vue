@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <Stamp :value="name" />
+    <h6>ちょっと便利な使い方</h6>
+    <p>URLに名前を含めておくと初期値として表示されます。</p>
+    <p>田中太郎さん ⇒ https://talch218.github.io/stamp/?田中 太郎</p>
+    <p>この状態でお気に入りに登録しておくと毎回入力しなくていいので便利</p>
   </div>
 </template>
 
